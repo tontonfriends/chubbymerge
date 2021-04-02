@@ -6,7 +6,7 @@
 if (selectModal) {
   let extraScoreStr = '';
   while (isNaN(parseInt(extraScoreStr))) {
-    extraScoreStr = prompt('请输入分数加成数字', '1').trim();
+    extraScoreStr = prompt('Please enter the number of points plus', '1').trim();
   }
   extraScore = parseInt(extraScoreStr)
 }
