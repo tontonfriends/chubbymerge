@@ -41,5 +41,5 @@ let adLink = 'https://www.instagram.com/explore/tags/tontonmerge/';
 document.getElementsByTagName("title")[0].innerText = 'Tonton Merge';
 
 // 开启选分弹窗：将 false 改为 true
-let selectModal = true;
+let selectModal = false;
 
